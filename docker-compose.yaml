@@ -7,7 +7,11 @@ services:
     networks:
       - 3s-vs-3j
     volumes:
-      - ./mongo-data:/data/db
+      - type: volume
+        source: mongo-data
+        target: /db/data
+        volume:
+          nocopy: true
 
   metabase:
     image: metabase/metabase
@@ -24,3 +28,7 @@ services:
 networks:
   3s-vs-3j:
     driver: bridge
+
+volumes:
+  mongo-data:
+    external: true
