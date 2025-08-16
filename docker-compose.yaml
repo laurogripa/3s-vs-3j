@@ -11,7 +11,7 @@ services:
     image: metabase/metabase
     container_name: metabase
     ports:
-      - 3002:3002
+      - 3000:3000
     volumes:
       - ./metabase-data:/metabase-data
     environment:

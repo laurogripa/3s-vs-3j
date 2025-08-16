@@ -1,7 +1,7 @@
-2025-08-16 12:39:37 jdbc[6]: exception
+2025-08-16 12:46:21 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DATABASECHANGELOGLOCK" not found; SQL statement:
 SELECT COUNT(*) FROM "PUBLIC"."DATABASECHANGELOGLOCK" [42102-214]
-2025-08-16 12:39:38 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.PERM_VALUE" not found; SQL statement:
 select t."PERM_VALUE" from "PUBLIC"."PERMISSIONS" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -112,7 +112,7 @@ select t."PERM_VALUE" from "PUBLIC"."PERMISSIONS" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:38 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.PERM_TYPE" not found; SQL statement:
 select t."PERM_TYPE" from "PUBLIC"."PERMISSIONS" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -223,7 +223,7 @@ select t."PERM_TYPE" from "PUBLIC"."PERMISSIONS" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:38 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.COLLECTION_ID" not found; SQL statement:
 select t."COLLECTION_ID" from "PUBLIC"."PERMISSIONS" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -334,7 +334,7 @@ select t."COLLECTION_ID" from "PUBLIC"."PERMISSIONS" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:38 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.CONTEXT" not found; SQL statement:
 select t."CONTEXT" from "PUBLIC"."RECENT_VIEWS" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -445,7 +445,7 @@ select t."CONTEXT" from "PUBLIC"."RECENT_VIEWS" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:38 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.IS_ATTACHED_DWH" not found; SQL statement:
 select t."IS_ATTACHED_DWH" from "PUBLIC"."METABASE_DATABASE" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -556,7 +556,7 @@ select t."IS_ATTACHED_DWH" from "PUBLIC"."METABASE_DATABASE" t where 0=1 [42122-
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:38 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.CHANNEL_ID" not found; SQL statement:
 select t."CHANNEL_ID" from "PUBLIC"."PULSE_CHANNEL" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -667,7 +667,7 @@ select t."CHANNEL_ID" from "PUBLIC"."PULSE_CHANNEL" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:38 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.LAST_VIEWED_AT" not found; SQL statement:
 select t."LAST_VIEWED_AT" from "PUBLIC"."REPORT_DASHBOARD" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -778,7 +778,7 @@ select t."LAST_VIEWED_AT" from "PUBLIC"."REPORT_DASHBOARD" t where 0=1 [42122-21
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:38 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.EMBEDDING_CLIENT" not found; SQL statement:
 select t."EMBEDDING_CLIENT" from "PUBLIC"."QUERY_EXECUTION" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -889,7 +889,7 @@ select t."EMBEDDING_CLIENT" from "PUBLIC"."QUERY_EXECUTION" t where 0=1 [42122-2
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:38 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.EMBEDDING_VERSION" not found; SQL statement:
 select t."EMBEDDING_VERSION" from "PUBLIC"."QUERY_EXECUTION" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -1000,7 +1000,7 @@ select t."EMBEDDING_VERSION" from "PUBLIC"."QUERY_EXECUTION" t where 0=1 [42122-
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:38 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.EMBEDDING_CLIENT" not found; SQL statement:
 select t."EMBEDDING_CLIENT" from "PUBLIC"."VIEW_LOG" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -1111,7 +1111,7 @@ select t."EMBEDDING_CLIENT" from "PUBLIC"."VIEW_LOG" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:38 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.EMBEDDING_VERSION" not found; SQL statement:
 select t."EMBEDDING_VERSION" from "PUBLIC"."VIEW_LOG" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -1222,7 +1222,7 @@ select t."EMBEDDING_VERSION" from "PUBLIC"."VIEW_LOG" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:38 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.COLUMN" not found; SQL statement:
 select t."COLUMN" from "PUBLIC"."QUERY_FIELD" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -1333,7 +1333,7 @@ select t."COLUMN" from "PUBLIC"."QUERY_FIELD" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:38 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.TABLE" not found; SQL statement:
 select t."TABLE" from "PUBLIC"."QUERY_FIELD" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -1444,7 +1444,7 @@ select t."TABLE" from "PUBLIC"."QUERY_FIELD" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:38 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.TABLE_ID" not found; SQL statement:
 select t."TABLE_ID" from "PUBLIC"."QUERY_FIELD" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -1555,7 +1555,7 @@ select t."TABLE_ID" from "PUBLIC"."QUERY_FIELD" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.ANALYSIS_ID" not found; SQL statement:
 select t."ANALYSIS_ID" from "PUBLIC"."QUERY_FIELD" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -1666,7 +1666,7 @@ select t."ANALYSIS_ID" from "PUBLIC"."QUERY_FIELD" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.SCHEMA" not found; SQL statement:
 select t."SCHEMA" from "PUBLIC"."QUERY_FIELD" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -1777,7 +1777,7 @@ select t."SCHEMA" from "PUBLIC"."QUERY_FIELD" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.SOURCE_CARD_ID" not found; SQL statement:
 select t."SOURCE_CARD_ID" from "PUBLIC"."REPORT_CARD" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -1888,7 +1888,7 @@ select t."SOURCE_CARD_ID" from "PUBLIC"."REPORT_CARD" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.STATUS" not found; SQL statement:
 select t."STATUS" from "PUBLIC"."QUERY_ANALYSIS" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -1999,7 +1999,7 @@ select t."STATUS" from "PUBLIC"."QUERY_ANALYSIS" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.PIVOT_RESULTS" not found; SQL statement:
 select t."PIVOT_RESULTS" from "PUBLIC"."PULSE_CARD" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -2110,7 +2110,7 @@ select t."PIVOT_RESULTS" from "PUBLIC"."PULSE_CARD" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.CRON_SCHEDULE" not found; SQL statement:
 select t."CRON_SCHEDULE" from "PUBLIC"."NOTIFICATION_SUBSCRIPTION" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -2221,7 +2221,7 @@ select t."CRON_SCHEDULE" from "PUBLIC"."NOTIFICATION_SUBSCRIPTION" t where 0=1 [
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.DASHBOARD_ID" not found; SQL statement:
 select t."DASHBOARD_ID" from "PUBLIC"."REPORT_CARD" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -2332,7 +2332,7 @@ select t."DASHBOARD_ID" from "PUBLIC"."REPORT_CARD" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.REFRESH_AUTOMATICALLY" not found; SQL statement:
 select t."REFRESH_AUTOMATICALLY" from "PUBLIC"."CACHE_CONFIG" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -2443,7 +2443,7 @@ select t."REFRESH_AUTOMATICALLY" from "PUBLIC"."CACHE_CONFIG" t where 0=1 [42122
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.PARAMETERIZED" not found; SQL statement:
 select t."PARAMETERIZED" from "PUBLIC"."QUERY_EXECUTION" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -2554,7 +2554,7 @@ select t."PARAMETERIZED" from "PUBLIC"."QUERY_EXECUTION" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.INTERNAL_ID" not found; SQL statement:
 select t."INTERNAL_ID" from "PUBLIC"."NOTIFICATION" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -2665,7 +2665,7 @@ select t."INTERNAL_ID" from "PUBLIC"."NOTIFICATION" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.DEACTIVATED_AT" not found; SQL statement:
 select t."DEACTIVATED_AT" from "PUBLIC"."CORE_USER" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -2776,7 +2776,7 @@ select t."DEACTIVATED_AT" from "PUBLIC"."CORE_USER" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.ENTITY_ID" not found; SQL statement:
 select t."ENTITY_ID" from "PUBLIC"."METABASE_DATABASE" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -2887,7 +2887,7 @@ select t."ENTITY_ID" from "PUBLIC"."METABASE_DATABASE" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.ENTITY_ID" not found; SQL statement:
 select t."ENTITY_ID" from "PUBLIC"."METABASE_TABLE" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -2998,7 +2998,7 @@ select t."ENTITY_ID" from "PUBLIC"."METABASE_TABLE" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.ENTITY_ID" not found; SQL statement:
 select t."ENTITY_ID" from "PUBLIC"."METABASE_FIELD" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -3109,7 +3109,7 @@ select t."ENTITY_ID" from "PUBLIC"."METABASE_FIELD" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.PAYLOAD_ID" not found; SQL statement:
 select t."PAYLOAD_ID" from "PUBLIC"."NOTIFICATION" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -3220,7 +3220,7 @@ select t."PAYLOAD_ID" from "PUBLIC"."NOTIFICATION" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.CREATOR_ID" not found; SQL statement:
 select t."CREATOR_ID" from "PUBLIC"."NOTIFICATION" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -3331,7 +3331,7 @@ select t."CREATOR_ID" from "PUBLIC"."NOTIFICATION" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.UI_DISPLAY_TYPE" not found; SQL statement:
 select t."UI_DISPLAY_TYPE" from "PUBLIC"."NOTIFICATION_SUBSCRIPTION" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -3442,7 +3442,7 @@ select t."UI_DISPLAY_TYPE" from "PUBLIC"."NOTIFICATION_SUBSCRIPTION" t where 0=1
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.CARD_SCHEMA" not found; SQL statement:
 select t."CARD_SCHEMA" from "PUBLIC"."REPORT_CARD" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -3553,7 +3553,7 @@ select t."CARD_SCHEMA" from "PUBLIC"."REPORT_CARD" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.ROUTER_DATABASE_ID" not found; SQL statement:
 select t."ROUTER_DATABASE_ID" from "PUBLIC"."METABASE_DATABASE" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -3664,7 +3664,7 @@ select t."ROUTER_DATABASE_ID" from "PUBLIC"."METABASE_DATABASE" t where 0=1 [421
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.IS_DEFECTIVE_DUPLICATE" not found; SQL statement:
 select t."IS_DEFECTIVE_DUPLICATE" from "PUBLIC"."METABASE_TABLE" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -3775,7 +3775,7 @@ select t."IS_DEFECTIVE_DUPLICATE" from "PUBLIC"."METABASE_TABLE" t where 0=1 [42
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2025-08-16 12:39:39 jdbc[6]: exception
+2025-08-16 12:46:23 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.UNIQUE_TABLE_HELPER" not found; SQL statement:
 select t."UNIQUE_TABLE_HELPER" from "PUBLIC"."METABASE_TABLE" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
