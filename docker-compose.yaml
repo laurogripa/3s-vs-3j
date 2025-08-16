@@ -6,6 +6,8 @@ services:
       - 27017:27017
     networks:
       - 3s-vs-3j
+    volumes:
+      - ./mongo-data:/data/db
 
   metabase:
     image: metabase/metabase
