@@ -1,0 +1,24 @@
+services:
+  mongodb:
+    image: mongo:7.0.5-jammy
+    attach: false
+    ports:
+      - 27017:27017
+    networks:
+      - 3s-vs-3j
+
+  metabase:
+    image: metabase/metabase
+    container_name: metabase
+    ports:
+      - 3002:3002
+    volumes:
+      - ./metabase-data:/metabase-data
+    environment:
+      - MB_DB_FILE=/metabase-data/metabase.db
+    networks:
+      - 3s-vs-3j
+
+networks:
+  3s-vs-3j:
+    driver: bridge
